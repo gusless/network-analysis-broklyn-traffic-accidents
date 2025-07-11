@@ -9,7 +9,6 @@ from shapely.geometry import Point
 from shapely.errors import TopologicalError
 import pandas as pd
 import plotly.express as px
-from collections import Counter
 
 def card(title, value, text=""):
     return f"""
@@ -416,7 +415,5 @@ st.markdown("""
 
 # st.header("Visualização de um Subgrafo com PyVis")
 # draw_graph_pyvis(G_acidentes_brooklyn)
-
-
 
 st.markdown("<script>window.scrollTo(0, 0);</script>", unsafe_allow_html=True)
