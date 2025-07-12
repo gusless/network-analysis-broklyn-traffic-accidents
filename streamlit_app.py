@@ -142,7 +142,7 @@ st.markdown("""
             O grafo utilizado nesse projeto é representado pelo mapa a seguir, na qual representa os dois bairros em questão, sendo os *nós* representando pontos de interesse na rede viária, podendo ser as interseções entre os trechos (esquinas, cruzamentos, _interchanges_) e pontos finais das ruas. Já as **arestas** representam os segmentos das ruas que vão de um nó a outro, possuem valores como o nome da rua, comprimento, etc.
             """)
 
-st.image(img_path + "brooklyn_statenisld_accidents_map.png", use_column_width=True)
+st.image(img_path + "brooklyn_statenisld_accidents_map.png")
 
 
 n_nodes = len(G.nodes())

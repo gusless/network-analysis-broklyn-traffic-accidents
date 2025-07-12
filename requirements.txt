@@ -5,3 +5,4 @@ osmnx
 shapely
 pandas
 plotly
+scipy
