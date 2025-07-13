@@ -154,8 +154,6 @@ st.sidebar.markdown("""
                     [GitHub](https://github.com/gusless/network-analysis-broklyn-traffic-accidents)
                     """)
 
-
-
 if page == "Visão Geral":
     st.title("Análise de Redes - Acidentes em Brooklyn e Staten Island")
 
@@ -333,8 +331,6 @@ elif page == "Coeficiente de Clustering":
     ]
 
     st.markdown("O coeficiente de clustering foi bem baixo globalmente e para todos os nós escolhidos, além de ter sido 0 para alguns, isto é, não há nenhum triangulo formado entre as ruas que ele conecta.")
-
-    st.markdown("#### Coeficiente de Clustering do nó com maior taxa de acidente por grau")
 
     global_clust = nx.average_clustering(G_sub)
 
